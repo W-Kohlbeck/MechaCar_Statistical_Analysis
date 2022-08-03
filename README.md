@@ -29,8 +29,12 @@ The design specifications for the MechaCar suspension coils dictate that the var
 ### Total Summary
 <img width="463" alt="image" src="https://user-images.githubusercontent.com/102195085/182504054-2aa329fb-c577-415f-835a-e948c2e40caf.png">
 
+When looking at the above results the total of all suspension coils has a variance PSI of 62.29356 which is well within the 100 PSI reqquirement.
+
 ### Lot Summary
 <img width="602" alt="image" src="https://user-images.githubusercontent.com/102195085/182504216-c9875ebb-62ff-4513-ad8a-49a8378fd02a.png">
+
+The picture changes a bit when we compare the three lots individaully. As seen above lot 1 and lot 2 are well withing the variance standard. Lot 3 however is well outside the standard variance with a 170.2861224.
 
 ## T-Tests on Suspension Coils
 
