@@ -15,7 +15,7 @@ In this challenge, you’ll help the data analytics team do the following:
 - As displayed in the summary of linear regresion below it was found that the vehicle length and ground clearence had a significant non random amount of variance. In turn meaning that they play a big factor on the MPG a vehicle may obtain.
 
 2. Is the slope of the linear model considered to be zero? Why or why not?
-- With a p-value: 5.35e-11 the slope of the linear model is not considered to be close to zero as it ios well beyond the pvalue goal of 0.05.
+- With a p-value: 5.35e-11 the slope of the linear model is not considered to be close to zero as it is well beyond the p-value goal of 0.05.
 
 3. Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 - With an r-value of 0.7149 it demonstrates a strong correlation in predicting mpg of MechaCar prototypes.
@@ -46,10 +46,14 @@ Looking further at each individual lot we see that lot 1 and lot 2 follow suit o
 <img width="828" alt="image" src="https://user-images.githubusercontent.com/102195085/182506407-4f59f01b-da5e-4095-8e40-45965c9469f8.png">
 
 ## Study Design: MechaCar vs Competition
-Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
+Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer.
 
-In your description, address the following questions:
-What metric or metrics are you going to test?
-What is the null hypothesis or alternative hypothesis?
-What statistical test would you use to test the hypothesis? And why?
-What data is needed to run the statistical test?
+When consumers want to compare vehicles and features there may be a high demand to compare price and reliability. In order to do so we would want to compare similarly constructed vehicles to that of MechaCar from multiple manufacturers.
+
+In order to do so the metrics to be looked at will include vehicle MSRP and reliability from like vehicles over the last 2 years.
+
+Hypothesis
+Null hypothesis: MechaCar will perform higher than alternatives in regards to price and reliability.
+Alternative hypothesis: MechaCar will under perform alternatives in regards to price and reliability.
+
+In order to perform this analysis, multiple linear regresion would be performed to compare vehicle price and reliability. In order to do so we would need to get MSPR pricing and reliability reports for all like vehicles among different manufacturers.
