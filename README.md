@@ -12,13 +12,13 @@ In this challenge, you’ll help the data analytics team do the following:
 ## Linear Regression to Predict MPG
 
 1. Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
-As displayed in the summary of linear regresion below it was found that the vehicle length and ground clearence had a significant non random amount of variance. In turn meaning that they play a big factor on the MPG a vehicle may obtain.
+- As displayed in the summary of linear regresion below it was found that the vehicle length and ground clearence had a significant non random amount of variance. In turn meaning that they play a big factor on the MPG a vehicle may obtain.
 
 2. Is the slope of the linear model considered to be zero? Why or why not?
-With a p-value: 5.35e-11 the slope of the linear model is not considered to be close to zero as it ios well beyond the pvalue goal of 0.05.
+- With a p-value: 5.35e-11 the slope of the linear model is not considered to be close to zero as it ios well beyond the pvalue goal of 0.05.
 
 3. Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
-With an r-value of 0.7149 it demonstrates a strong correlation in predicting mpg of MechaCar prototypes.
+- With an r-value of 0.7149 it demonstrates a strong correlation in predicting mpg of MechaCar prototypes.
 
 <img width="801" alt="image" src="https://user-images.githubusercontent.com/102195085/182500248-dec40076-5eeb-4a18-a7d7-af364a62ca64.png">
 
