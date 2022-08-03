@@ -1,12 +1,24 @@
 # MechaCar_Statistical_Analysis
 
+Approached by upper management about a special project. AutosRUs’ newest prototype, the MechaCar, is suffering from production troubles that are blocking the manufacturing team’s progress. AutosRUs’ upper management has called on Jeremy and the data analytics team to review the production data for insights that may help the manufacturing team.
+
+In this challenge, you’ll help the data analytics team do the following:
+
+1. Perform multiple linear regression analysis to identify which variables in the dataset predict the mpg of MechaCar prototypes.
+2. Collect summary statistics on the pounds per square inch (PSI) of the suspension coils from the manufacturing lots
+3. Run t-tests to determine if the manufacturing lots are statistically different from the mean population
+4. Design a statistical study to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers. For each statistical analysis, you’ll write a summary interpretation of the findings.
+
 ## Linear Regression to Predict MPG
 
-Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
+1. Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
+As displayed in the summary of linear regresion below it was found that the vehicle length and ground clearence had a significant non random amount of variance. In turn meaning that they play a big factor on the MPG a vehicle may obtain.
 
-Is the slope of the linear model considered to be zero? Why or why not?
+2. Is the slope of the linear model considered to be zero? Why or why not?
+With a p-value: 5.35e-11 the slope of the linear model is not considered to be close to zero as it ios well beyond the pvalue goal of 0.05.
 
-Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+3. Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+With an r-value of 0.7149 it demonstrates a strong correlation in predicting mpg of MechaCar prototypes.
 
 <img width="801" alt="image" src="https://user-images.githubusercontent.com/102195085/182500248-dec40076-5eeb-4a18-a7d7-af364a62ca64.png">
 
